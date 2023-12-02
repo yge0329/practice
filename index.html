@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <h1 class="logo"><a href=""><span class="hide">트니트니</span></a></h1>
+            <div>
+                <a href="#" class="icon_location"><span class="hide">현재위치</span></a>
+                <a href="#" class="icon_alarm"><span class="hide">알람</span></a>
+            </div>
+        </div>
+        <h2 class="hide">메인메뉴</h2>
+        <nav class="gnb">
+            <ul>
+                <li class="active"><a href="">홈</a></li>
+                <li><a href="">트니TV</a></li>
+                <li><a href="">커뮤니티</a></li>
+                <li><a href="">제품</a></li>
+                <li><a href="">이벤트</a></li>
+            </ul>
+        </nav>
+        <button class="btn_program_view"><span class="hide">프로그램 보기</span></button>
+    </header>
+    <section>
+        <div class="swiper visual">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="visual_page1">
+                        <p>
+                            <span>튼튼한 신체놀이와<br>유대감 형성의 마음놀이</span>
+                            <em>트니캠프!</em>
+                        </p>
+                        <img src="img/visual_logo1.png" alt="트니트니챔프">
+                        <a href="" class="btn_go">GO</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="visual_page2">
+                        <p><span>튼튼한 신체놀이와<br>유대감 형성의 마음놀이</span><em>트니캠프!</em>
+                        </p>
+                        <img src="img/visual_logo2.png" alt="트니트니챔프">
+                        <a href="" class="btn_go">GO</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="hide">로그인 정보</h2>
+        <div class="login_wrap">
+            <div class="login" style="display:none;">
+                트니트니 회원가입 후 <b>다양한 트니 활동 및 혜택을 경험하세요!</b>
+                <div>
+                    <a href="#" class="btn_type1 green">회원가입</a>
+                    <a href="#" class="btn_type1 gray">로그인</a>
+                    </di>
+                </div>
+            </div>
+            <div class="logout">
+                <h2>안녕하세요. <b>승호 트니맘</b> 님</h2>
+                <div>
+                    <img src="img/@thumb1.png" alt="이름1">
+                    <img src="img/@thumb1.png" alt="이름2">
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <strong>3</strong>
+                            <p>수강중</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong>46</strong>
+                            <p>
+                                즐겨찾기</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <img src="img/@thomb2.png" alt="이름3">
+                                <span>28</span>
+                            </div>
+                            <p>스템프</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong>87</strong>
+                            <p>사진</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="tit">
+            <h2 class="h2">감사편지</h2>
+            <a href="" class="btn_more"><span class="hide">더보기</span></a>
+        </div>
+        <div class="swiper thanks">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="">
+                    <h3>선생님! 잘 지내시죠?</h3>
+                    <p class="txt">저번주 트니트니 수업 다녀와서 현준이가 너무 귀여운 행동을 해서 이렇게 편지를 써요~선생님 따라 하더라구요ㅎ 수첩들고와서 출석부인냥 자기가 수첩보면서 부르고 대답하고ㅎㅎ방석들고와서...</p>
+                    <div class="info">
+                        <img src="img/visual_logo1.png" alt="카테고리:트니트니 그라운드">
+                        <span aria-label="작성자">독수리 김태훈</span>
+                    </div>
+                    <div class="info2" aria-label="작성일">24개월</div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                    <h3>선생님! 잘 지내시죠?</h3>
+                    <p class="txt">저번주 트니트니 수업 다녀와서 현준이가 너무 귀여운 행동을 해서 이렇게 편지를 써요~선생님 따라 하더라구요ㅎ 수첩들고와서 출석부인냥 자기가 수첩보면서 부르고 대답하고ㅎㅎ방석들고와서...</p>
+                    <div class="info">
+                        <img src="img/visual_logo1.png" alt="카테고리:트니트니 그라운드">
+                        <span aria-label="작성자">독수리 김태훈</span>
+                    </div>
+                    <div class="info2" aria-label="작성일">24개월</div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                    <h3>선생님! 잘 지내시죠?</h3>
+                    <p class="txt">저번주 트니트니 수업 다녀와서 현준이가 너무 귀여운 행동을 해서 이렇게 편지를 써요~선생님 따라 하더라구요ㅎ 수첩들고와서 출석부인냥 자기가 수첩보면서 부르고 대답하고ㅎㅎ방석들고와서...</p>
+                    <div class="info">
+                        <img src="img/visual_logo1.png" alt="카테고리:트니트니 그라운드">
+                        <span aria-label="작성자">독수리 김태훈</span>
+                    </div>
+                    <div class="info2" aria-label="작성일">24개월</div>
+                </a>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section class="review">
+        <div class="tit">
+            <h2 class="h2_2">트니트니, 다시 만나볼까요?!</h2>
+            <a href="" class="btn_more"><span class="hide">더보기</span></a>
+        </div>
+        <div class="swiper review_slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="clear">
+                        <div class="right">
+                            <strong>뽀빠이</strong>
+                            <p>류제민 트니쌤</p>
+                            <span>2021.11.20</span>
+                        </div>
+                        <div class="left">
+                            <img src="img/@thumb1.png" alt="" class="thoumb">
+                            <img src="img/visual_logo1.png" alt="" class="logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="clear">
+                        <div class="right">
+                            <strong>뽀빠이</strong>
+                            <p>류제민 트니쌤</p>
+                            <span>2021.11.20</span>
+                        </div>
+                        <div class="left">
+                            <img src="img/@thumb1.png" alt="" class="thoumb">
+                            <img src="img/visual_logo1.png" alt="" class="logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="clear">
+                        <div class="right">
+                            <strong>뽀빠이</strong>
+                            <p>류제민 트니쌤</p>
+                            <span>2021.11.20</span>
+                        </div>
+                        <div class="left">
+                            <img src="img/@thumb1.png" alt="" class="thoumb">
+                            <img src="img/visual_logo1.png" alt="" class="logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="clear">
+                        <div class="right">
+                            <strong>뽀빠이</strong>
+                            <p>류제민 트니쌤</p>
+                            <span>2021.11.20</span>
+                        </div>
+                        <div class="left">
+                            <img src="img/@thumb1.png" alt="" class="thoumb">
+                            <img src="img/visual_logo1.png" alt="" class="logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="paging">
+
+            </div>
+        </div>
+        <div class="ad">
+            <a href="#">
+                <img src="img/banner.png" alt="">
+            </a>
+        </div>
+    </section>
+    <section class="news_list">
+        <div class="tit">
+            <h2 class="h2">트니 TV</h2>
+            <a href="" class="btn_more"><span class="hide">더보기</span></a>
+        </div>
+        <div class="swiper slide2">
+            <ul class="swiper-wrapper list_type1">
+                <li class="swiper-slide">
+                    <div>
+                        <a href="">
+                            <figure>
+                                <div>
+                                    <img src="img/banner.png" alt="">
+                                </div>
+                                <figcaption>
+                                    <strong>금발머리 소녀와 곰 금발머리 소녀와 곰</strong>
+                                    <p>곰 세마리집에 반가운 손님이 찾아왔어요.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div>
+                        <a href="">
+                            <figure>
+                                <div>
+                                    <img src="img/banner.png" alt="">
+                                </div>
+                                <figcaption>
+                                    <strong>금발머리 소녀와 곰 금발머리 소녀와 곰</strong>
+                                    <p>곰 세마리집에 반가운 손님이 찾아왔어요.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div>
+                        <a href="">
+                            <figure>
+                                <div>
+                                    <img src="img/banner.png" alt="">
+                                </div>
+                                <figcaption>
+                                    <strong>금발머리 소녀와 곰 금발머리 소녀와 곰</strong>
+                                    <p>곰 세마리집에 반가운 손님이 찾아왔어요.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div>
+                        <a href="">
+                            <figure>
+                                <div>
+                                    <img src="img/banner.png" alt="">
+                                </div>
+                                <figcaption>
+                                    <strong>금발머리 소녀와 곰 금발머리 소녀와 곰</strong>
+                                    <p>곰 세마리집에 반가운 손님이 찾아왔어요.</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="prd_list">
+        <div class="tit">
+            <h2 class="h2">트니 추천상품</h2>
+            <a href="" class="btn_more"><span class="hide">더보기</span></a>
+        </div>
+        <ul class="list_type2">
+            <li>
+                <a href="">
+                    <figure>
+                        <img src="img/thum.png" alt="">
+                        <figcaption>
+                            <strong class="ellipsis">어린이 카메라 2 트니어린이 카메라 2 트니어린이 카메라 2 트니어린이 카메라 2 트니어린이 카메라 2 트니어린이 카메라 2 트니</strong>
+                            <p>트니프랜즈 골드 에디션</p>
+                            <del>64,000원</del><span>(34%)</span>
+                            <div>
+                                35,250원
+                                <div class="star">
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="off"></span>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <figure>
+                        <img src="img/thum.png" alt="">
+                        <figcaption>
+                            <strong class="ellipsis">어린이 카메라 2 트니어린이 카메라 2 트니어린이 카메라 2 트니어린이 카메라 2 트니어린이 카메라 2 트니어린이 카메라 2 트니</strong>
+                            <p>트니프랜즈 골드 에디션</p>
+                            <del>64,000원</del><span>(34%)</span>
+                            <div>
+                                35,250원
+                                <div class="star">
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="off"></span>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="community">
+        <div class="tit">
+            <h2 class="h2">커뮤니티</h2>
+            <a href="" class="btn_more"><span class="hide">더보기</span></a>
+        </div>
+        <ul class="list_type3">
+            <li>
+                <a href="">
+                    <h3>떼쓰기 대왕 4살아이 어떻게 해야 할까요?</h3>
+                    <p>아침에 어린이집 갈때마다 진짜 전쟁이에요. 씻으러 들어가면 아주 난리난리나고, 그냥 뭐든 다 싫다 안한다 드러눕고 울고불고 악지르고...아침부터 전쟁이 시작됩...</p>
+                    <div class="info">
+                        <div class="date">2일전</div>
+                        <div>
+                            <span class="help">도움 25</span>
+                            <span class="reply">댓글 25</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h3>떼쓰기 대왕 4살아이 어떻게 해야 할까요?</h3>
+                    <p>아침에 어린이집 갈때마다 진짜 전쟁이에요. 씻으러 들어가면 아주 난리난리나고, 그냥 뭐든 다 싫다 안한다 드러눕고 울고불고 악지르고...아침부터 전쟁이 시작됩...</p>
+                    <div class="info">
+                        <div class="date">2일전</div>
+                        <div>
+                            <span class="help">도움 25</span>
+                            <span class="reply">댓글 25</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <article class="banner">
+        <a href="" class="open_popup">
+            <strong>우리 서로를 응원해요!</strong>
+            <p>지금 가장 듣고 싶은 응원의 말로<br>서로를 위로해 주세요!</p>
+            <span>트니트니 응원 캠페인</span>
+        </a>
+    </article>
+    <section class="">
+        <div class="tit">
+            <h2 class="h2">공지사항</h2>
+            <a href="" class="btn_more"><span class="hide">더보기</span></a>
+        </div>
+        <ul class="list_type4">
+            <li>
+                <a href="">
+                    <h3>[트니홈] 신규 프로그램 안내</h3>
+                    <div>
+                        <p>트니홈에 신규 프로그램이 추가되었습니다.</p>
+                        <div class="date">2021.11.24</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h3>[트니홈] 신규 프로그램 안내</h3>
+                    <div>
+                        <p>트니홈에 신규 프로그램이 추가되었습니다.</p>
+                        <div class="date">2021.11.24</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h3>[트니홈] 신규 프로그램 안내</h3>
+                    <div>
+                        <p>트니홈에 신규 프로그램이 추가되었습니다.</p>
+                        <div class="date">2021.11.24</div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <nav class="quick">
+        <ul>
+            <li><a href="">첫화면</a></li>
+            <li><a href="">수강하기</a></li>
+            <li><a href="">수강목록</a></li>
+            <li><a href="">마이트니</a></li>
+        </ul>
+    </nav>
+    <div class="popup type1">
+        <div class="popup_wrap">
+            <ul class="list_type5">
+                <li>
+                    <a href="">
+                        <div class="left">
+                            <img src="img/@thumb1.png" alt="" class="thoumb">
+                            <img src="img/visual_logo1.png" alt="" class="logo">
+                        </div>
+                        <div class="right">
+                            <strong>트니챔프</strong>
+                            <ul>
+                                <li>#마이다스 호텔</li>
+                                <li>#영유아 ~ 초등학생</li>
+                                <li>#놀이체육</li>
+                                <li>#트니트니존</li>
+                                <li>#익사이팅존</li>
+                                <li>#슬라이딩존</li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="left">
+                            <img src="img/@thumb1.png" alt="" class="thoumb">
+                            <img src="img/visual_logo1.png" alt="" class="logo">
+                        </div>
+                        <div class="right">
+                            <strong>트니챔프</strong>
+                            <ul>
+                                <li>#마이다스 호텔</li>
+                                <li>#영유아 ~ 초등학생</li>
+                                <li>#놀이체육</li>
+                                <li>#트니트니존</li>
+                                <li>#익사이팅존</li>
+                                <li>#슬라이딩존</li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="left">
+                            <img src="img/@thumb1.png" alt="" class="thoumb">
+                            <img src="img/visual_logo1.png" alt="" class="logo">
+                        </div>
+                        <div class="right">
+                            <strong>트니챔프</strong>
+                            <ul>
+                                <li>#마이다스 호텔</li>
+                                <li>#영유아 ~ 초등학생</li>
+                                <li>#놀이체육</li>
+                                <li>#트니트니존</li>
+                                <li>#익사이팅존</li>
+                                <li>#슬라이딩존</li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="left">
+                            <img src="img/@thumb1.png" alt="" class="thoumb">
+                            <img src="img/visual_logo1.png" alt="" class="logo">
+                        </div>
+                        <div class="right">
+                            <strong>트니챔프</strong>
+                            <ul>
+                                <li>#마이다스 호텔</li>
+                                <li>#영유아 ~ 초등학생</li>
+                                <li>#놀이체육</li>
+                                <li>#트니트니존</li>
+                                <li>#익사이팅존</li>
+                                <li>#슬라이딩존</li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="more_link">
+                <div><a href=""><b>트니돌봄교실</b>바로가기</a></div>
+                <div><a href=""><b>뽀로로 놀이교실</b>바로가기</a></div>
+            </div>
+            <button class="btn_close"></button>
+        </div>
+    </div>
+    <div class="dimmed"></div>
+
+    <div class="popup type2">
+        <div class="popup_wrap">
+            <div class="emoji">
+                <img src="img/ico_popup.png" alt="트니트니
+                카카오 이모티콘 지금 트니트니 회원가입하면!
+                1만개 선착순 증정합니다.">
+                <button class="btn_join">트니트니 회원가입</button>
+            </div>
+            <button class="btn_close2 btn_close_pop"><span class="hide">닫기</span></button>
+            <!-- btn_close_pop: 팝업 닫는 버튼 용도js (close2는 css용) -->
+        </div>
+    </div>
+
+    <div class="popup type3">
+        <header class="popup_header">
+            <h2>우리 서로 응원해요!</h2>
+            <button class="btn_close2 btn_close_pop2"><span class="hide">닫기</span></button>
+        </header>
+        <section class="popup_content">
+            마음만은 대장금인데,<br>
+            엄마 손은 비비고 왕교자를 돌리고 있다.<br>
+            <br>
+            마음만은 오은영인데<br>
+            엄마 입은 소리 지르고 있다.<br>
+            <br>
+            마음만은 맹자 모인데<br>
+            엄마 손은 유튜브를 검색하고 있다.<br>
+            <br>
+            뭐든 다 해주고픈데<br>
+            미안하다<br>
+            엄마도 어쩔 수 없는 사람인가 보다.<br>
+            나도 좀 살자.<br>
+        </section>
+        <article class="banner">
+            <a href="" class="">
+                <strong>우리 서로를 응원해요!</strong>
+                <p>지금 가장 듣고 싶은 응원의 말로<br>서로를 위로해 주세요!</p>
+                <span>트니트니 응원 캠페인</span>
+            </a>
+        </article>
+    </div>
+</body>
+<!-- 팝업은 body 밑으로 -->
+<!-- quick메뉴는 모든 페이지마다 따라다니므로 body 아래에 두고 여백을 퀵메뉴 높이만큼 주기 -->
+</html>
